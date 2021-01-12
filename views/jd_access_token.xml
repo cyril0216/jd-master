@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+	<data>
+		<record id="view_form_jd_access_token" model="ir.ui.view">
+			<field name="name">jd_access_token.form</field>
+			<field name="model">jd_access_token</field>
+			<field name="arch" type="xml">
+				<form string="表单">
+					<sheet>
+						<div class="oe_button_box" name="button_box">
+                                </div>
+						<group>
+							<group>
+								<field name="account" />
+								<field name="passwd" nolabel="2"/>
+								<field name="cookie" readonly="True"/>
+							</group>
+							<group>
+                                    </group>
+						</group>
+					</sheet>
+				</form>
+			</field>
+		</record>
+		<record id="view_tree_jd_access_token" model="ir.ui.view">
+			<field name="name">jd_access_token.tree</field>
+			<field name="model">jd_access_token</field>
+			<field name="priority">1</field>
+			<field name="arch" type="xml">
+				<tree string="列表">
+					<field name="account" />
+					<field name="passwd" nolabel="2"/>
+					<field name="cookie" readonly="True"/>
+				</tree>
+			</field>
+		</record>
+		<record id="action_jd_access_token" model="ir.actions.act_window">
+			<field name="name">京东账户相关</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">jd_access_token</field>
+			<field name="view_mode">tree,form</field>
+			<field name="help" type="html">
+				<p class="oe_view_nocontent_create">
+                    创建账户.
+                </p>
+				<p>
+                
+                </p>
+			</field>
+		</record>
+		<menuitem action="action_jd_access_token" id="menu_jd_access_token" parent="menu_jd_1" sequence="0" />
+	</data>
+</odoo>

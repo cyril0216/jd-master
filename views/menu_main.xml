@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <menuitem id="menu_jd" name="京东茅台助手" sequence="0" web_icon="JD_master,static/description/icon.png"/>
+        <menuitem id="menu_jd_1" name="京东账户配置" sequence="0" parent="menu_jd"/>
+        <menuitem id="menu_jd_2" name="订单配置" sequence="0" parent="menu_jd"/>
+    </data>
+</odoo>

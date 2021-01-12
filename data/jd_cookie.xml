@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="ir_cron_auto_get_token" model="ir.cron">
+            <field name="name">京东更新cookie</field>
+            <field name="interval_number">100</field>
+            <field name="interval_type">minutes</field>
+            <field name="numbercall">-1</field>
+            <field name="doall" eval="True"/>
+            <field name="model_id" ref="model_jd_access_token"/>
+            <field name="code">model.get_token()</field>
+            <field name="state">code</field>
+        </record>
+    </data>
+</odoo>

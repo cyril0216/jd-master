@@ -1,0 +1,2 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+"access_jd_access_token_read","jd_access_token","model_jd_access_token","base.group_user",1,1,1,1

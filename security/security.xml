@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <record id="category_jd_access_token" model="ir.module.category">
+                <field name="name">京东账户相关</field>
+            </record>
+            <record id="category_jd_account" model="ir.module.category">
+                <field name="name">订单配置</field>
+            </record>
+<!--            <record id="category_dt_personnel_list_indoor" model="ir.module.category">-->
+<!--                <field name="name">人员轨迹(室外项目)</field>-->
+<!--            </record>-->
+<!--            <record id="category_dt_electronic_fence" model="ir.module.category">-->
+<!--                <field name="name">电子围栏</field>-->
+<!--            </record>-->
+<!--            <record id="category_dt_person" model="ir.module.category">-->
+<!--                <field name="name">项目人员</field>-->
+<!--            </record>-->
+<!--        -->
+    </data>
+</odoo>
