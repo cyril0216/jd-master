@@ -28,54 +28,7 @@ class JD_access_token(models.Model):
 
     def get_token(self):
 
-        #
-        # '''账户信息'''
-        # userName = 'zhsz'
-        # passWord = '123456'
-        # url = 'https://igh.zolbon.com:18081/sys/oauth/token'
-        # data = {'userName': userName, 'passWord': passWord}
-        # rawdata = self.env['dt_access_token'].sudo().search([])
-        #
-        # res = json.loads(str(requests.post(url=url, json=data).text))
-        #
-        # data_list = res['data']
-        # proInfo = data_list['proInfo']
-        #
-        # access_token = data_list['access_token']
-        # expires_in = data_list['expires_in']
-        # user_id = data_list['user_id']
-        # for i in proInfo:
-        #     projectid = i['projectId']
-        #     projectname = i['projectName']
-        #
-        #
-        # rawdata = self.env['dt_access_token'].sudo().search([])
-        #
-        #
-        # values = {
-        #     'access_token': access_token,
-        #     'expires_in': expires_in,
-        #     'user_id': user_id,
-        #     'projectid': projectid,
-        #     'projectname': projectname,
-        # }
-        #
-        # try:
-        #     rawdata = self.env[self._name].sudo().search([('user_id', '=', user_id)])
-        #     if rawdata:
-        #         self.env[self._name].sudo().write(values)
-        #         print('更新token成功')
-        #
-        #     else:
-        #         self.env[self._name].sudo().create(values)
-        #         print('获取token成功')
-        #
-        # except Exception as err:
-        #     print('更新token错误', err)
-        #
-        #
-        #
-        #
+        
         pass
 
     
